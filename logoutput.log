@@ -1,0 +1,31 @@
+Charm++> No provisioning arguments specified. Running with a single PE.
+         Use +auto-provision to fully subscribe resources or +p1 to silence this message.
+Charm++: standalone mode (not using charmrun)
+Charm++> Running in Multicore mode: 1 threads (PEs)
+Charm++> Using recursive bisection (scheme 3) for topology aware partitions
+Charm++ warning> fences and atomic operations not available in native assembly
+Converse/Charm++ Commit ID: v6.10.2-0-g7bf00fa-namd-charm-6.10.2-build-2020-Aug-05-556
+Charm++> Disabling isomalloc because mmap() does not work.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 hosts (1 sockets x 4 cores x 1 PUs = 4-way SMP)
+Charm++> cpu topology info is gathered in 0.012 seconds.
+Info: Built with CUDA version 10010
+Did not find +devices i,j,k,... argument, using all
+Pe 0 physical rank 0 binding to CUDA device 0 on DESKTOP-9QUU1I3: 'GeForce GTX 1050'  Mem: 4096MB  Rev: 6.1  PCI: 0:1:0
+Info: NAMD 2.14 for Win64-multicore-CUDA
+Info: 
+Info: Please visit http://www.ks.uiuc.edu/Research/namd/
+Info: for updates, documentation, and support information.
+Info: 
+Info: Please cite Phillips et al., J. Chem. Phys. 153:044130 (2020) doi:10.1063/5.0014475
+Info: in all publications reporting results obtained with NAMD.
+Info: 
+Info: Based on Charm++/Converse 61002 for multicore-win64
+Info: Built Wed, Aug 05, 2020 9:54:41 PM by jim on europa
+Info: Running on 1 processors, 1 nodes, 1 physical nodes.
+Info: CPU topology information available.
+Info: Charm++/Converse parallel runtime startup completed at 0.294 s
+CkLoopLib is used in SMP with simple dynamic scheduling (converse-level notification)
+Info: 259.047 MB of memory in use based on GetProcessMemoryInfo
+Info: Configuration file is minimize.namd
+FATAL ERROR: Unable to access config file minimize.namd
